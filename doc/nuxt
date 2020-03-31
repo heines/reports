@@ -1,0 +1,11 @@
+# Nuxtについての予備知識
+## Nuxtってなんだよ
+- Vue.jsのフレームワーク
+- 作成サイトは サーバーサイドレンダリング/静的サイト で公開されることを前提とする（一応、SPAモードも用意はされているがオプションである）
+  - なので、開発モードであっても「ページのソースを表示」を確認すると、HTMLが表示される。（SPAモードを除く）
+## JAMStack？
+- LAMPStack（⊃MAMP）に倣う形で命名されたもの（https://employment.en-japan.com/engineerhub/entry/2019/12/10/103000）
+- JavaScript/APIs/Markup で構成される（所感だがAPIsという呼び方が、とてもフロントから見た世界『らしい』）
+- サーバーとフロントエンドを疎結合にし、サーバーが担っていた機能を外部化（これが恐らくAPIs）してフロントだけで扱いやすくする構成を指す。
+- サイトデータはサーバ側で静的ファイル化されている。（都度レンダリングするとSSRと呼ぶ）
+  - [SSRとかSPAの分類はここ](https://developers.google.com/web/updates/2019/02/rendering-on-the-web)
